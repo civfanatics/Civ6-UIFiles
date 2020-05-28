@@ -835,7 +835,7 @@ function OnCitySelectionChanged(owner:number, ID:number, i:number, j:number, k:n
 		RefreshCitizenManagement();
 		RefreshCityYieldsPlotList();
 
-		print("PlotInfo::OnCitySelectionChanged",owner, ID, i, j, k, bSelected, bEditable);		--??TRON debug
+		-- print("PlotInfo::OnCitySelectionChanged",owner, ID, i, j, k, bSelected, bEditable);		--??TRON debug
 	end
 end
 
